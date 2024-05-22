@@ -1,8 +1,8 @@
 # Set Swap Space
 
-```
-      - name: Set Swap Space
-        uses: pierotofy/set-swap-space@master
-        with:
-          swap-size-gb: 10
+```yml
+- name: Set Swap Space
+  uses: MoeKernel/swap@moe
+  with:
+    swap-size-gb: 10
 ```
